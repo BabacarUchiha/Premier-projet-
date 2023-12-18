@@ -1,0 +1,203 @@
+
+.color {
+    background: linear-gradient(40deg,rgba(37, 19, 109, 1)
+    , rgba(242, 180, 90, 1));
+    -webkit-background-clip: text; /* Pour permettre le dégradé sur le texte */
+    color: transparent; /* Rend le texte transparent pour voir le dégradé en arrière-plan */
+  }
+  .color-bleu{
+    background-color: rgba(0, 120, 150, 1);
+    color: white;
+  }
+  .bordure-color{
+    border: solid 1px color
+    color: transparent; /* Rendre le texte transparent pour voir le dégradé en arrière-plan */
+      border: 2px solid transparent; /* Bordure transparente initiale */
+      border-image: linear-gradient(45deg, orange, yellow) 1; /* Appliquer le dégradé à la bordure */
+      border-image-slice: 1; /* Répartir uniformément le dégradé sur la bordure */
+      margin: 0;
+  }
+  .color1 {
+    background: linear-gradient(45deg,rgba(37, 19, 109, 1)
+    , rgba(242, 180, 90, 1));
+    -webkit-background-clip: text; /* Pour permettre le dégradé sur le texte */
+    color: transparent; /* Rend le texte transparent pour voir le dégradé en arrière-plan */
+  }
+  .color-icone{
+color: rgba(0, 120, 150, 1);
+  }
+  .color-footer{
+    background:  #EBEBEB;
+    ;
+
+  }
+  .grt{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+   width: 30%;
+  }
+  .gtp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 4rem;
+  }
+  .color-digitalisation{
+    color: #FD7473;
+  }
+  .cadre{
+    width: 32rem;
+    height: 12.375rem;
+    display: flex;
+    justify-content: center;
+  }
+  .Service{
+    text-align: center;
+  }
+  
+  .block1-ligne1 {
+ 
+    display: flex;
+   align-items: center;
+    width:80.063rem;
+    height: 40rem;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  .block1-ligne2{
+    
+    display: flex;
+    justify-content: center;
+    width:80.063rem;
+    height: 40rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  
+  .centrer{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    
+  }
+  .design-margin{
+    margin-left: 5rem;
+  }
+  .block-service-design{
+    width: 20rem;
+    height: 14rem;
+    margin: 20px;
+  }
+ .block1{
+  height: 61rem;
+  width: 81rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }
+ .infographie-margin{
+  margin-left: 2rem;
+ }
+ .color-temoignage{
+
+  background-color: #007896;
+  color: white;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+ }
+
+ .temoignage1{
+width: 35.028rem;
+height: 39.188rem ;
+
+ }
+ .blocktext{
+  width: 28.75rem;
+  height: 12.375rem;
+ }
+ .color-date{
+  color: rgba(99, 116, 120, 0.627);
+  ;
+ }
+ .cadre-blanc{
+  background-color: white;
+  width:24.091rem;
+  border-radius: 10px;
+  height: 10.975rem;
+ }
+ .rotation-1{
+  transform: rotate(-9deg);
+ }
+ .rotation-2{
+  transform: rotate(-9deg);
+  margin-top: 2rem;
+  
+ }
+ .rotation-3{
+  transform: rotate(-8deg);
+
+ }
+ .color-Marie{
+  color: rgba(0, 120, 150, 1);
+  ;
+ }
+ .temoignage-client{
+display: flex;
+justify-content: center;
+gap: 1rem;
+ }
+ 
+ .text-2{
+  font-size: 14px;
+ }
+ .text-1{
+  font-size:14px ;
+ }
+ .pad-1{
+  padding-left: 4rem;
+  
+ }
+ .pad-3{
+  padding-left: 6rem;
+ }
+ .pad-4{
+  margin-left: 8rem;s
+  width: 50rem;
+  
+ }
+ .ligne{
+  background-color: rgba(246, 190, 86, 1);
+  padding: 5px;
+  margin-bottom: 17px;
+  width: 82px;
+  height: 2px;
+  border-radius: 10px;
+ }
+ .ligne2{
+  background-color: rgba(246, 190, 86, 1);
+  padding: 5px;
+  margin-bottom: 17px;
+  margin-left: 10rem;
+  width: 102px;
+  height: 2px;
+  border-radius: 10px;
+ }
+ .newsletter-text{
+  width:69rem ;
+  height:26rem ;
+  background-color: yellow;
+ }
+ .ligne-color{
+  background-color: rgba(0, 120, 150, 1);
+  padding: 5px;
+  margin-bottom: 17px;
+  margin-left: 10rem;
+  width: 102px;
+  height: 2px;
+  border-radius: 10px;
+ }
